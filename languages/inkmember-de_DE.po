@@ -1,0 +1,1036 @@
+# Copyright (C) 2015 InkMember Pro
+# This file is distributed under the same license as the InkMember Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: InkMember Pro\n"
+"Report-Msgid-Bugs-To: http://inkthemes.com\n"
+"POT-Creation-Date: 2015-09-03 12:51+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Neeraj Malviya <neeraj.malviya05@gmail.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _:1;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/gateway/paypal/ipn.php:152
+msgid "Debug IPN"
+msgstr "Debug IPN"
+
+#: inc/gateway/paypal/ipn.php:187
+msgid "Invalid IPN"
+msgstr "ungültige IPN"
+
+#: inc/gateway/paypal/ipn.php:209
+msgid "IPN Fraud Warning"
+msgstr "IPN Betrug Warnung"
+
+#: inc/gateway/paypal/ipn.php:240
+msgid " Payment Received."
+msgstr "Zahlung Erhalten."
+
+#: inc/gateway/paypal/ipn.php:242 inc/gateway/paypal/ipn.php:323
+msgid "Dear Admin,"
+msgstr "Lieber Admin,"
+
+#: inc/gateway/paypal/ipn.php:243
+#, php-format
+msgid "Payment received successfully from %s %s."
+msgstr "Payment erfolgreich empfangen von %s %s."
+
+#: inc/gateway/paypal/ipn.php:244 inc/gateway/paypal/ipn.php:262
+msgid "Transaction Details"
+msgstr "Transaktionsdetails"
+
+#: inc/gateway/paypal/ipn.php:246 inc/gateway/paypal/ipn.php:264
+msgid "Product Name: "
+msgstr "Produktname:"
+
+#: inc/gateway/paypal/ipn.php:247 inc/gateway/paypal/ipn.php:265
+msgid "Amount Received: "
+msgstr "Menge empfangen:"
+
+#: inc/gateway/paypal/ipn.php:248
+msgid "PayPal Email: "
+msgstr "PayPal E-Mail:"
+
+#: inc/gateway/paypal/ipn.php:249 inc/gateway/paypal/ipn.php:266
+#: inc/gateway/paypal/ipn.php:286 inc/gateway/paypal/ipn.php:309
+#: inc/gateway/paypal/ipn.php:328
+msgid "Transaction ID: "
+msgstr "Transaktions-ID:"
+
+#: inc/gateway/paypal/ipn.php:250 inc/gateway/paypal/ipn.php:289
+#: inc/gateway/paypal/ipn.php:312 inc/gateway/paypal/ipn.php:331
+msgid "Payment type: "
+msgstr "Zahlungsart:"
+
+#: inc/gateway/paypal/ipn.php:258
+msgid " Thanks for your purchase."
+msgstr "Dank für Ihren Kauf."
+
+#: inc/gateway/paypal/ipn.php:261
+#, php-format
+msgid "Your purchase of %s is successful."
+msgstr "Kauf von %s ist erfolgreich."
+
+#: inc/gateway/paypal/ipn.php:267
+msgid "Warm Regards,"
+msgstr "Herzliche Grüße,"
+
+#: inc/gateway/paypal/ipn.php:277
+msgid "PayPal IPN - payment pending"
+msgstr "PayPal IPN - Zahlung Ausstehend"
+
+#: inc/gateway/paypal/ipn.php:278
+msgid "Admin"
+msgstr "Admin"
+
+#: inc/gateway/paypal/ipn.php:281 inc/gateway/paypal/ipn.php:304
+msgid "Dear "
+msgstr "Liebe"
+
+#: inc/gateway/paypal/ipn.php:282
+#, php-format
+msgid "The following payment is pending on your %s website."
+msgstr "Die folgenden Zahlungs auf Ihrer Website %s anhängig ist."
+
+#: inc/gateway/paypal/ipn.php:283 inc/gateway/paypal/ipn.php:306
+#: inc/gateway/paypal/ipn.php:325
+msgid "Payment Details"
+msgstr "Zahlungsdetails"
+
+#: inc/gateway/paypal/ipn.php:285 inc/gateway/paypal/ipn.php:308
+#: inc/gateway/paypal/ipn.php:327
+msgid "Payer PayPal address: "
+msgstr "Zahler PayPal-Adresse:"
+
+#: inc/gateway/paypal/ipn.php:287 inc/gateway/paypal/ipn.php:310
+#: inc/gateway/paypal/ipn.php:329
+msgid "Payer first name: "
+msgstr "Zahler Vorname:"
+
+#: inc/gateway/paypal/ipn.php:288 inc/gateway/paypal/ipn.php:311
+#: inc/gateway/paypal/ipn.php:330
+msgid "Payer last name: "
+msgstr "Zahler Nachname:"
+
+#: inc/gateway/paypal/ipn.php:290 inc/gateway/paypal/ipn.php:313
+#: inc/gateway/paypal/ipn.php:333
+msgid "Amount: "
+msgstr "Betrag:"
+
+#: inc/gateway/paypal/ipn.php:301
+msgid "PayPal IPN - payment failed"
+msgstr "PayPal IPN - Zahlung fehlgeschlagen"
+
+#: inc/gateway/paypal/ipn.php:305
+#, php-format
+msgid "The following payment has failed on your %s website."
+msgstr "Die folgenden Zahlungs auf Ihrer Website %s fehlgeschlagen."
+
+#: inc/gateway/paypal/ipn.php:321
+msgid "PayPal IPN - payment refunded/reversed"
+msgstr "PayPal IPN - Zahlung zurückerstattete / umgekehrt"
+
+#: inc/gateway/paypal/ipn.php:324
+#, php-format
+msgid "The following payment has been marked as refunded on your %s website."
+msgstr ""
+"Die folgenden Zahlungs als zurückerstattet auf Ihrer Website %s markiert."
+
+#: inc/gateway/paypal/ipn.php:332
+msgid "Reason code: "
+msgstr "Ursachencode:"
+
+#: inc/gateway/paypal/process.php:108
+msgid "<h4>Thank you for your payment</h4>"
+msgstr "<h4> Danke für Ihre Zahlung </ h4>"
+
+#: inc/gateway/paypal/process.php:109
+msgid "<p>Payment Received<p>"
+msgstr "<p> Zahlung erhalten <p>"
+
+#: inc/gateway/paypal/process.php:110
+msgid "<p>Your subcription has been successfully created.</p>"
+msgstr "<p> Ihr Abonnement erfolgreich erstellt wurde. </ p>"
+
+#: inc/gateway/paypal/process.php:112
+msgid "<p>Sorry, Your payment has been failed</p>"
+msgstr "<p> Es tut uns leid, Ihre Zahlung fehlgeschlagen </ p>"
+
+#: inc/im-core.php:66
+msgid "Pricing:"
+msgstr "Preise:"
+
+#: inc/im-core.php:74 inc/purchase_action.php:41 inc/shortcode/shortcode.php:59
+#: inc/shortcode/shortcode.php:181
+#, php-format
+msgid "Billing Terms: %1$s&nbsp;%2$s for %3$s&nbsp;%4$s"
+msgstr "Billing-Ausdrücke: %1$s&nbsp;%2$s for %3$s&nbsp;%4$s"
+
+#: inc/im-core.php:79 inc/purchase_action.php:46 inc/shortcode/shortcode.php:64
+#: inc/shortcode/shortcode.php:186
+#, php-format
+msgid ", for %s Installments"
+msgstr ", für %s Raten"
+
+#: inc/im-core.php:83 inc/purchase_action.php:50 inc/shortcode/shortcode.php:68
+#: inc/shortcode/shortcode.php:190
+#, php-format
+msgid ", Then&nbsp;%1$s&nbsp;%2$s for each %3$s&nbsp;%4$s %5$s"
+msgstr "Dann&nbsp;%1$s&nbsp;%2$s  für jede %3$s&nbsp;%4$s %5$s"
+
+#: inc/im-core.php:134 inc/shortcode/shortcode.php:118
+msgid "Buy Now"
+msgstr "Jetzt Kaufen"
+
+#: inc/im-core.php:138 inc/shortcode/shortcode.php:122
+#, php-format
+msgid ""
+"Restricted Access. You must be a member to access this content. Get %s "
+"package below to access the Content."
+msgstr ""
+"Eingeschränkter Zugang. Sie müssen Mitglied sein, um diese Inhalte zugreifen "
+"zu können. Holen %s Paket aus, um die Inhalte zugreifen."
+
+#: inc/im-core.php:153 inc/im-core.php:249
+msgid "InkMember"
+msgstr "InkMember"
+
+#: inc/im-core.php:154
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/im-core.php:155
+msgid "Transaction"
+msgstr "Transaktion"
+
+#: inc/im-core.php:156
+msgid "Help"
+msgstr "Hilfe"
+
+#: inc/im-core.php:215
+msgid "U.S. Dollar"
+msgstr "US Dollar"
+
+#: inc/im-core.php:216
+msgid "Australian Dollar"
+msgstr "Australischer Dollar"
+
+#: inc/im-core.php:217
+msgid "Brazilian Real"
+msgstr "Brasilianischer Real"
+
+#: inc/im-core.php:218
+msgid "Canadian Dollar"
+msgstr "Canadian Dollar"
+
+#: inc/im-core.php:219
+msgid "Czech Koruna"
+msgstr "Tschechische Krone"
+
+#: inc/im-core.php:220
+msgid "Danish Krone"
+msgstr "dänische Krone"
+
+#: inc/im-core.php:221
+msgid "Euro"
+msgstr "Euro"
+
+#: inc/im-core.php:222
+msgid "Hong Kong Dollar"
+msgstr "Hongkong-Dollar"
+
+#: inc/im-core.php:223
+msgid "Hungarian Forint"
+msgstr "ungarischer Forint"
+
+#: inc/im-core.php:224
+msgid "Israeli New Sheqel"
+msgstr "Israelischer Schekel"
+
+#: inc/im-core.php:225
+msgid "Japanese Yen"
+msgstr "Japanischer Yen"
+
+#: inc/im-core.php:226
+msgid "Malaysian Ringgit"
+msgstr "Malaysischer Ringgit"
+
+#: inc/im-core.php:227
+msgid "Mexican Peso"
+msgstr "Mexikanischer Peso"
+
+#: inc/im-core.php:228
+msgid "Norwegian Krone"
+msgstr "Norwegische Krone"
+
+#: inc/im-core.php:229
+msgid "New Zealand Dollar"
+msgstr "Neuseeland-Dollar"
+
+#: inc/im-core.php:230
+msgid "Philippine Peso"
+msgstr "philippinischer Peso"
+
+#: inc/im-core.php:231
+msgid "Polish Zloty"
+msgstr "Polnischer Zloty"
+
+#: inc/im-core.php:232
+msgid "Pound Sterling"
+msgstr "Pfund Sterling"
+
+#: inc/im-core.php:233
+msgid "Singapore Dollar"
+msgstr "Singapur-Dollar"
+
+#: inc/im-core.php:234
+msgid "Swedish Krona"
+msgstr "Schwedische Krone"
+
+#: inc/im-core.php:235
+msgid "Swiss Franc"
+msgstr "Schweizer Franken"
+
+#: inc/im-core.php:236
+msgid "Taiwan New Dollar"
+msgstr "Taiwan neue Dollar"
+
+#: inc/im-core.php:237
+msgid "Thai Baht"
+msgstr "Thai Baht"
+
+#: inc/im-core.php:238
+msgid "Turkish Lira"
+msgstr "Türkische Lira"
+
+#: inc/im-core.php:239
+msgid "Russian Ruble"
+msgstr "Russischer Rubel"
+
+#: inc/im-core.php:315
+msgid "Set the merchant email for paypal before your add any product!"
+msgstr ""
+"Stellen Sie den Händler E-Mail für paypal, bevor Ihr Add jedes Produkt!"
+
+#: inc/im-process.php:261
+msgid "days"
+msgstr "Tage"
+
+#: inc/im-process.php:262
+msgid "day"
+msgstr "Tag"
+
+#: inc/im-process.php:263
+msgid "hours"
+msgstr "Stunden"
+
+#: inc/im-process.php:264
+msgid "hour"
+msgstr "Stunde"
+
+#: inc/im-process.php:265
+msgid "mins"
+msgstr "minute"
+
+#: inc/im-process.php:266
+msgid "min"
+msgstr "min"
+
+#: inc/im-process.php:267
+msgid "secs"
+msgstr "sekunden"
+
+#: inc/im-process.php:268
+msgid "remaining"
+msgstr "übrig"
+
+#: inc/im-process.php:269
+msgid "Membership has expired"
+msgstr "Die Mitgliedschaft ist nicht mehr erhältlich"
+
+#: inc/im-process.php:402
+#, php-format
+msgid "Dear %s"
+msgstr "Lieber %s"
+
+#: inc/im-process.php:403
+msgid "Your membership has been expired, "
+msgstr "Ihre Mitgliedschaft abgelaufen ist,"
+
+#: inc/im-process.php:404
+#, php-format
+msgid "Login On: %s"
+msgstr "Angemeldet am:%s"
+
+#: inc/im-process.php:409
+msgid "Membership expiration notice"
+msgstr "Mitgliedschaft Ablauf Hinweis"
+
+#: inc/metabox.php:9
+msgid "InkMember Membership"
+msgstr "InkMember Mitgliedschaft"
+
+#: inc/metabox.php:39
+msgid ""
+"Note: You have to use above level's id for protect your content by shortcode."
+msgstr ""
+"Hinweis: Sie müssen über id zum Schutz Ihrer Inhalte durch Shortniveau zu "
+"nutzen."
+
+#: inc/metabox.php:65
+msgid "Membership Option"
+msgstr "Mitgliedschaft Option"
+
+#: inc/metabox.php:69
+msgid "Membership Level"
+msgstr "Mitgliedschaftsstufe"
+
+#: inc/metabox.php:70
+msgid "Expiry On"
+msgstr "Fälligkeit Auf"
+
+#: inc/purchase_action.php:82
+msgid "Product not found"
+msgstr "Produkt wurde nicht gefunden"
+
+#: inc/shortcode/shortcode.php:51
+#, php-format
+msgid "<b>Pricing: %1$s %2$s</b><br/><br/>"
+msgstr "<b>Preise: %1$s %2$s</b><br/><br/>"
+
+#: inc/shortcode/shortcode.php:173
+#, php-format
+msgid "Your subscription price is: %s <br/>"
+msgstr "Ihre Bezugspreis beträgt: %s <br/>"
+
+#: inc/shortcode/shortcode.php:193
+#, php-format
+msgid "Your subscription Name is: %s <br/>"
+msgstr "Ihr Abonnement Name ist: %s <br/>"
+
+#: inc/shortcode/shortcode.php:207
+msgid "Please login or signup to see pricing"
+msgstr "Bitte anmelden oder registrieren, um Preise anzuzeigen"
+
+#: inc/user-auth.php:135
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>Fehler</strong>: Bitte geben Sie einen Benutzernamen ein."
+
+#: inc/user-auth.php:137
+msgid ""
+"<strong>ERROR</strong>: This username is invalid.  Please enter a valid "
+"username."
+msgstr ""
+"<strong>Fehler</strong>: Dieser Username ist ungültig. Bitte geben Sie einen "
+"gültigen Benutzernamen."
+
+#: inc/user-auth.php:140
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr ""
+"<strong>Fehler</strong>: Dieser Benutzername ist bereits registriert, wählen "
+"Sie bitte einen anderen."
+
+#: inc/user-auth.php:144
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>Fehler</strong>: Bitte geben Sie Ihre E-Mail-Adresse ein."
+
+#: inc/user-auth.php:146
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>Fehler</strong>: Die E-Mail Adresse ist nicht korrekt."
+
+#: inc/user-auth.php:149
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+"<strong>Fehler</strong>: Diese E-Mail ist bereits registriert, wählen Sie "
+"bitte einen anderen."
+
+#: inc/user-auth.php:153
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr "<strong>Fehler</strong>: Bitte geben Sie ein Passwort ein."
+
+#: inc/user-auth.php:155
+msgid "<strong>ERROR</strong>: Please enter password twice."
+msgstr "<strong>Fehler</strong>: Bitte geben Sie zweimal das Kennwort."
+
+#: inc/user-auth.php:157
+msgid "<strong>ERROR</strong>: Passwords do not match."
+msgstr "<strong>Fehler</strong>: Passwörter stimmen nicht überein."
+
+#: inc/user-auth.php:173
+msgid "<strong>ERROR</strong>: Please enter correct reCAPTCHA key."
+msgstr ""
+
+#: inc/user-auth.php:175 inc/user-auth.php:180
+msgid "<strong>ERROR</strong>: Please re-enter your reCAPTCHA."
+msgstr ""
+
+#: inc/user-auth.php:192
+msgid ""
+"<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the "
+"webmaster</a> "
+msgstr ""
+"<strong>Fehler</strong>: Konnte nicht registriert werden Sie ... bitte an "
+"den Webmaster </a>"
+
+#: inc/user-auth.php:241
+msgid "You are now logged out."
+msgstr "Sie sind nun abgemeldet."
+
+#: inc/user-auth.php:244
+msgid "User registration is currently not allowed."
+msgstr "Benutzerregistrierung ist derzeit nicht erlaubt."
+
+#: inc/user-auth.php:247
+msgid "Check your email for the confirmation link."
+msgstr "Überprüfen Sie Ihre E-Mail für den Bestätigungslink."
+
+#: inc/user-auth.php:250
+msgid "Check your email for your new password."
+msgstr "Überprüfen Sie Ihre E-Mail für Ihr neues Passwort."
+
+#: inc/user-auth.php:253
+msgid "Registration complete. Please check your e-mail."
+msgstr "Registrierung abgeschlossen. Bitte überprüfen Sie Ihre E-Mail."
+
+#: inc/user-auth.php:340
+msgid "Sign In"
+msgstr "Einloggen"
+
+#: inc/user-auth.php:342 inc/user-auth.php:377
+msgid "User Name:"
+msgstr "Benutzername:"
+
+#: inc/user-auth.php:348
+msgid "Password:"
+msgstr "Passwort:"
+
+#: inc/user-auth.php:353
+msgid "Log In"
+msgstr "Einloggen"
+
+#: inc/user-auth.php:375
+msgid "Create an Account"
+msgstr "Ein Konto erstellen"
+
+#: inc/user-auth.php:383
+msgid "Email:"
+msgstr "E-mail:"
+
+#: inc/user-auth.php:390
+msgid "Enter Password:"
+msgstr "Passwort Eingeben:"
+
+#: inc/user-auth.php:396
+msgid "Enter Password Again"
+msgstr "Kennwort Erneut Eingeben"
+
+#: inc/user-auth.php:413
+msgid "Register"
+msgstr "Registrieren"
+
+#: inc/user-auth.php:439
+msgid "Forgot your password?"
+msgstr "Passwort vergessen?"
+
+#: inc/user-auth.php:444
+msgid "Enter your email or username."
+msgstr "Geben Sie einfach Ihre E-Mail oder Benutzername."
+
+#: inc/user-auth.php:449
+msgid "Reset my password"
+msgstr "Setze mein Passwort zurück"
+
+#: inc/user-auth.php:453
+msgid "A message will be sent to your email address."
+msgstr "Eine Nachricht wird an Ihre E-Mail-Adresse geschickt."
+
+#: inc/view/add-product.php:8 inc/view/edit-product.php:7
+msgid "Product Name:"
+msgstr "Produktname:"
+
+#: inc/view/add-product.php:9 inc/view/edit-product.php:8
+msgid "Name of Your Product will come here. Eg: Yoga Series."
+msgstr "Namen Ihres Produkts hierher kommen. ZB: Yoga-Serie."
+
+#: inc/view/add-product.php:17 inc/view/edit-product.php:16
+msgid "Billing Option:"
+msgstr "Billing Option:"
+
+#: inc/view/add-product.php:18 inc/view/edit-product.php:17
+msgid ""
+"Choose whether you want to offer product for One Time Payment or Recurring "
+"Payment."
+msgstr ""
+"Wählen Sie, ob Produkt für Einmalzahlung oder wiederkehrende Zahlung "
+"anbieten wollen."
+
+#: inc/view/add-product.php:21 inc/view/edit-product.php:20
+msgid "One Time Purchase or"
+msgstr "One Time Kauf oder"
+
+#: inc/view/add-product.php:22 inc/view/edit-product.php:21
+msgid "Recurring Subscription"
+msgstr "Wiederkehrende Abonnement"
+
+#: inc/view/add-product.php:28 inc/view/edit-product.php:27
+msgid "Currency:"
+msgstr "Währung:"
+
+#: inc/view/add-product.php:29 inc/view/edit-product.php:28
+msgid "Choose Your Payment Currency."
+msgstr "Wählen Sie Ihre Zahlungswährung."
+
+#: inc/view/add-product.php:44 inc/view/edit-product.php:49
+msgid "Product Price:"
+msgstr "Product Price:"
+
+#: inc/view/add-product.php:45 inc/view/edit-product.php:50
+msgid "Enter Pricing for your product."
+msgstr "Geben Sie Preise für Ihr Produkt."
+
+#: inc/view/add-product.php:46 inc/view/edit-product.php:51
+msgid "This is the amount to be charged for the first time payment."
+msgstr ""
+"Dies ist der Betrag, der zum ersten Mal die Zahlung in Rechnung gestellt."
+
+#: inc/view/add-product.php:54 inc/view/edit-product.php:59
+msgid "Payment Period:"
+msgstr "Zahlungsfrist:"
+
+#: inc/view/add-product.php:55 inc/view/edit-product.php:60
+msgid ""
+"Time period of first payment after which the second price will be charged."
+msgstr ""
+"Zeitdauer der ersten Zahlung nach der der zweite Preis in Rechnung gestellt."
+
+#: inc/view/add-product.php:60 inc/view/add-product.php:85
+#: inc/view/add-product.php:109 inc/view/edit-product.php:65
+#: inc/view/edit-product.php:90 inc/view/edit-product.php:116
+msgid "day(s)"
+msgstr "Tag"
+
+#: inc/view/add-product.php:61 inc/view/add-product.php:86
+#: inc/view/add-product.php:110 inc/view/edit-product.php:66
+#: inc/view/edit-product.php:91 inc/view/edit-product.php:117
+msgid "week(s)"
+msgstr "Woche"
+
+#: inc/view/add-product.php:62 inc/view/add-product.php:87
+#: inc/view/add-product.php:111 inc/view/edit-product.php:67
+#: inc/view/edit-product.php:92 inc/view/edit-product.php:118
+msgid "month(s)"
+msgstr "Monate"
+
+#: inc/view/add-product.php:63 inc/view/add-product.php:88
+#: inc/view/add-product.php:112 inc/view/edit-product.php:68
+#: inc/view/edit-product.php:93 inc/view/edit-product.php:119
+msgid "years(s)"
+msgstr "Jahre"
+
+#: inc/view/add-product.php:70 inc/view/edit-product.php:75
+msgid "Second Price:"
+msgstr "Zweiter Preis:"
+
+#: inc/view/add-product.php:71 inc/view/edit-product.php:76
+msgid ""
+"This is the amount to be charged for second time and further subsequent "
+"payments."
+msgstr ""
+"Dies ist der Betrag, der für die zweite Zeit und weiteren nachfolgenden "
+"Zahlungen berechnet."
+
+#: inc/view/add-product.php:79 inc/view/edit-product.php:84
+msgid "Second Period:"
+msgstr "Zweite Periode:"
+
+#: inc/view/add-product.php:80 inc/view/edit-product.php:85
+msgid "Set the time period after which the second price will be charged again."
+msgstr ""
+"Stellen Sie die Zeit, nach der der zweite Preis wird wieder aufgeladen "
+"werden."
+
+#: inc/view/add-product.php:94 inc/view/edit-product.php:99
+msgid "Number of Payments:"
+msgstr "Anzahl von Zahlungen:"
+
+#: inc/view/add-product.php:95 inc/view/edit-product.php:100
+msgid ""
+"Number of times the Second Recurring Payment will be charged. Enter 0 for "
+"unlimited."
+msgstr ""
+"Wie oft der Zweiten Wiederkehrende Zahlung fällig. Geben Sie 0 für "
+"unbegrenzt."
+
+#: inc/view/add-product.php:103 inc/view/edit-product.php:109
+msgid "Subscription Period:"
+msgstr "Zeichnungsfrist:"
+
+#: inc/view/add-product.php:104 inc/view/edit-product.php:110
+msgid "Time period till the users can access the product."
+msgstr "Zeitraum bis der Nutzer das Produkt zugreifen."
+
+#: inc/view/add-product.php:113 inc/view/edit-product.php:120
+msgid "Lifetime(22 Years Max)"
+msgstr "Lebensdauer (22 Jahre Max)"
+
+#: inc/view/add-product.php:119
+msgid "Add Product"
+msgstr "Produkt hinzufügen"
+
+#: inc/view/edit-product.php:115 inc/view/setting-page.php:88
+msgid "Select One"
+msgstr "Wähle Eins"
+
+#: inc/view/edit-product.php:127
+msgid "Update"
+msgstr "Aktualisierung"
+
+#: inc/view/help.php:4
+msgid "InkMember Shortcodes Reminder"
+msgstr "InkMember Kurzwahlnummern Erinnerung"
+
+#: inc/view/help.php:5
+msgid "InkMember plugin has following shortcodes to use."
+msgstr "InkMember Plugin folgenden Kurzwahlnummern verwenden."
+
+#: inc/view/help.php:8
+msgid "This shortcode is used for creating login register page."
+msgstr ""
+"Dieser Shortcode ist für die Erstellung von Login registrieren Seite "
+"verwendet."
+
+#: inc/view/help.php:9
+msgid "This shortcode is used for displaying payment status on thank you page."
+msgstr ""
+"Dieser Shortcode ist für die Anzeige von Zahlungsstatus auf Dankeschön-Seite "
+"verwendet."
+
+#: inc/view/help.php:10
+msgid ""
+"This shortcode is used for creating pricing page. You can also place this "
+"shortcode in anywhere of video content area. Also can be assigned and "
+"seperate the pricing by assigning membership level id. Use method is: "
+"<b>[im_pricing id= membership level id]</b> e.g. <b>[im_pricing id=1]</b>. "
+"By default it takes first membership level."
+msgstr ""
+"Dieser Shortcode ist für die Erstellung der Preisseite verwendet. Sie können "
+"auch stellen diese Shortcode in überall von Video-Content-Bereich. Auch "
+"zugeordnet werden kann und trennen die Preisgestaltung durch die Zuordnung "
+"Mitgliedsstufe id. Verwenden Sie Methode: <b> [im_pricing id = "
+"Mitgliedsstufe id] </b> zB <b> [im_pricing id = 1] </b>. Standardmäßig nimmt "
+"es erste Mitgliedsstufe."
+
+#: inc/view/help.php:11
+msgid ""
+"This shortcode is used for protecting selected contents. Use method is: "
+"<b>[private_content] your content [/private_content]</b>. You can even "
+"assign it different membership level id same as pricing. e.g. "
+"<b>[private_content id=membership level id] your contents [/"
+"private_content]</b>"
+msgstr ""
+"Dieser Shortcode ist für den Schutz von ausgewählten Inhalten verwendet. "
+"Verwenden Sie Methode: <b> [private_content] Ihr Inhalt [/ private_content] "
+"</b>. Sie können sogar zuweisen verschiedenen Mitgliedsstufe id gleiche wie "
+"die Preisgestaltung. z.B. <b> [private_content id = Mitgliedsstufe id] Ihr "
+"Inhalt [/ private_content] </b>"
+
+#: inc/view/login-content.php:8
+msgid "Back to site?"
+msgstr "Zurück zur Website?"
+
+#: inc/view/product-list.php:5
+msgid "Product Name"
+msgstr "Produktname"
+
+#: inc/view/product-list.php:6
+msgid "Billing Type"
+msgstr "Billing Type"
+
+#: inc/view/product-list.php:7 inc/view/transaction.php:15
+msgid "Action"
+msgstr "Aktion"
+
+#: inc/view/product-list.php:8
+msgid "Purchase Link"
+msgstr "Kauf-Link"
+
+#: inc/view/product-list.php:18
+msgid "One Time"
+msgstr "Einmal"
+
+#: inc/view/product-list.php:20
+msgid "Recurring"
+msgstr "Wiederkehrend"
+
+#: inc/view/product-list.php:22
+msgid "Free Member"
+msgstr "kostenlose Mitgliedschaft"
+
+#: inc/view/product-list.php:26
+msgid "Edit"
+msgstr "bearbeiten"
+
+#: inc/view/product-list.php:27
+msgid "Click OK to reset. Any settings will be lost!"
+msgstr ""
+"Klicken Sie auf OK, um zurückzusetzen. Alle Einstellungen gehen verloren!"
+
+#: inc/view/product-list.php:27
+msgid "Delete"
+msgstr "löschen"
+
+#: inc/view/product-list.php:34
+msgid "You don't have any membership. Please create a membership"
+msgstr ""
+"Sie haben noch keine Mitgliedschaft. Legen Sie bitte eine Mitgliedschaft"
+
+#: inc/view/setting-page.php:4
+msgid "InkMember Settings"
+msgstr "InkMember Einstellungen"
+
+#: inc/view/setting-page.php:10
+msgid "Payment Mode"
+msgstr "Zahlungsmittel"
+
+#: inc/view/setting-page.php:17
+msgid "Cash Later"
+msgstr "Cash Später"
+
+#: inc/view/setting-page.php:22
+msgid "Cash Form Url:"
+msgstr "Cash Form Url:"
+
+#: inc/view/setting-page.php:23
+msgid ""
+"Enter your url to getting details from suscribers for their payment via bank "
+"or cash."
+msgstr ""
+"Geben Sie Ihre URL zu bekommen Angaben von Teilnehmern für ihre Zahlung "
+"durch Bank oder Bargeld."
+
+#: inc/view/setting-page.php:31
+msgid "Paypal Email:"
+msgstr "Paypal E-Mail:"
+
+#: inc/view/setting-page.php:32
+msgid "Your Paypal Email for receiving payments. Eg: payments@yoursite.com"
+msgstr ""
+"Ihre Paypal E-Mail für die Empfänger von Zahlungen. Beispiel: "
+"payments@yoursite.com"
+
+#: inc/view/setting-page.php:40
+msgid "PayPal Locale:"
+msgstr "PayPal Gebietsschema:"
+
+#: inc/view/setting-page.php:41
+msgid ""
+"Select PayPal locale if you want to redirect to particular country's "
+"language."
+msgstr ""
+"Wählen PayPal Gebietsschema, wenn Sie auf die Sprache des jeweiligen Landes "
+"umgeleitet werden sollen."
+
+#: inc/view/setting-page.php:46
+msgid "Australia"
+msgstr "Australien"
+
+#: inc/view/setting-page.php:47
+msgid "Austria"
+msgstr "Österreich"
+
+#: inc/view/setting-page.php:48
+msgid "Belgium"
+msgstr "Belgien"
+
+#: inc/view/setting-page.php:49
+msgid "Brazil"
+msgstr "Brasilien"
+
+#: inc/view/setting-page.php:50
+msgid "Canada"
+msgstr "Kanada"
+
+#: inc/view/setting-page.php:51
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: inc/view/setting-page.php:52
+msgid "China"
+msgstr "China"
+
+#: inc/view/setting-page.php:53
+msgid "Germany"
+msgstr "Deutschland"
+
+#: inc/view/setting-page.php:54
+msgid "Spain"
+msgstr "Spanien"
+
+#: inc/view/setting-page.php:55
+msgid "United Kingdom"
+msgstr "Vereinigtes Königreich"
+
+#: inc/view/setting-page.php:56
+msgid "France"
+msgstr "frankreich"
+
+#: inc/view/setting-page.php:57
+msgid "Italy"
+msgstr "Italien"
+
+#: inc/view/setting-page.php:58
+msgid "Netherlands"
+msgstr "Niederlande"
+
+#: inc/view/setting-page.php:59
+msgid "Poland"
+msgstr "Polen"
+
+#: inc/view/setting-page.php:60
+msgid "Portugal"
+msgstr "Portugal"
+
+#: inc/view/setting-page.php:61
+msgid "Russia"
+msgstr "Russland"
+
+#: inc/view/setting-page.php:62
+msgid "United States"
+msgstr "Vereinigte Staaten"
+
+#: inc/view/setting-page.php:68
+msgid "Sandbox Mode:"
+msgstr "Sandbox-Modus:"
+
+#: inc/view/setting-page.php:69
+msgid ""
+"Choose Yes if you are in testing phase through Paypal Sandbox Account. Else "
+"Choose No for real Paypal Transactions."
+msgstr ""
+"Wählen Sie Ja, wenn Sie in der Testphase per Paypal Sandbox Konto sind. Else "
+"Wählen Sie Nein für echte Paypal Transaktionen."
+
+#: inc/view/setting-page.php:76
+msgid "No"
+msgstr "Nein"
+
+#: inc/view/setting-page.php:77
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/view/setting-page.php:83
+msgid "Thanks Page:"
+msgstr "Thanks Seite:"
+
+#: inc/view/setting-page.php:84
+msgid ""
+"Choose your thank you page. This page will displayed when user redirects to "
+"your site after made payment from paypal."
+msgstr ""
+"Wählen Sie Ihre Dankeschön-Seite. Diese Seite wird angezeigt, wenn Benutzer "
+"umleitet, um Ihre Website nach geleisteter Zahlung von paypal."
+
+#: inc/view/setting-page.php:109
+msgid "Captcha On/Off"
+msgstr ""
+
+#: inc/view/setting-page.php:110
+msgid ""
+"By default captcha is deactivated on user registration, turn it on to "
+"activate."
+msgstr ""
+
+#: inc/view/setting-page.php:117
+msgid "On"
+msgstr ""
+
+#: inc/view/setting-page.php:118
+msgid "Off"
+msgstr ""
+
+#: inc/view/setting-page.php:124
+msgid "Recaptcha Public Key"
+msgstr ""
+
+#: inc/view/setting-page.php:125
+msgid "Go to Google Recaptcha to Create your Public key"
+msgstr ""
+
+#: inc/view/setting-page.php:136
+msgid "Recaptcha Private Key"
+msgstr ""
+
+#: inc/view/setting-page.php:137
+msgid "Go to Google Recaptcha to Create your Private key"
+msgstr ""
+
+#: inc/view/setting-page.php:148
+msgid "Save"
+msgstr "speichern"
+
+#: inc/view/transaction.php:4
+msgid "InkMember Transaction"
+msgstr "InkMember Transaktion"
+
+#: inc/view/transaction.php:9
+msgid "User Name"
+msgstr "Benutzername"
+
+#: inc/view/transaction.php:10
+msgid "Transaction Title"
+msgstr "Transaktion Titel"
+
+#: inc/view/transaction.php:11
+msgid "Transaction ID"
+msgstr "Transaktions-ID"
+
+#: inc/view/transaction.php:12
+msgid "Transaction Type"
+msgstr "Geschäftsart"
+
+#: inc/view/transaction.php:13
+msgid "Payment Date"
+msgstr "Zahlungsdatum"
+
+#: inc/view/transaction.php:14
+msgid "Payer Email"
+msgstr "Payer Email"
+
+#: inc/view/transaction.php:35
+msgid "You don't have any transaction yet"
+msgstr "Sie haben noch keine Transaktion tipp"
+
+#: inkmember.php:55
+msgid "Login"
+msgstr "Einloggen"
+
+#: inkmember.php:79
+msgid "Payment Status"
+msgstr "Bezahlstatus"
+
+#: inkmember.php:131
+msgid "First Price:"
+msgstr "Erster Preis:"
+
+#~ msgid "Lifetime"
+#~ msgstr "Lebensdauer"
+
+#~ msgid "Restricted Access. You must be a member to access this content. Get"
+#~ msgstr ""
+#~ "Eingeschränkter Zugang. Sie müssen Mitglied sein, um diese Inhalte "
+#~ "zugreifen zu können. erhalten"

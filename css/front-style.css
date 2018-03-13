@@ -1,0 +1,131 @@
+.nofity,.user_email_error,.error{
+    color: red;
+}
+.im_log_form{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+.im_log_form .close{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    display: block;
+    background: url('../images/close.png') no-repeat;
+    width: 32px;
+    height: 32px;
+}
+/*--------------------------------------------------------------------*/
+/* Login Register style */
+/*--------------------------------------------------------------------*/
+#im_authform td,
+#im_authform th{
+    border: none;
+}
+#im_authform .form_tag{
+    border-bottom: 1px solid #cbcbcb;
+    padding-bottom: 15px;
+}
+#im_authform label{
+    margin-bottom:5px;
+    display: block;
+}
+#login_form{
+    margin-right: 50px;
+}
+#login_form input[type="text"],
+#login_form input[type="password"],
+#register input[type="text"],
+#register input[type="password"]{
+    border: 1px solid #cbcbcb;
+    height: 40px;
+    width: 250px;
+    background-color: #f2f2f2;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#login_form .submit,
+#register .submit{
+    background: url('../images/login.png') no-repeat;
+    border: none;
+    width: 103px;
+    height: 38px;
+    color: #fff;
+    font-size: 14px;
+}
+#login_form{
+    float: left;
+    margin-bottom: 20px;
+}
+#im_pricing{
+    margin-bottom: 20px;
+}
+#im_pricing .purchase_btn {
+    -moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+    box-shadow:inset 0px 1px 0px 0px #fff6af;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+    background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+    background-color:#ffec64;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-size:19px;
+    font-weight:bold;
+    padding:11px 41px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+    margin-bottom: 34px;
+    margin-top: 10px;
+}
+#im_pricing .purchase_btn:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+    background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+    background-color:#ffab23;
+}
+#im_pricing .purchase_btn:active {
+    position:relative;
+    top:1px;
+}
+.protected-notice h2 {
+    border: 1px dotted rgb(223, 223, 223);
+    padding: 30px;
+    line-height: 29px;
+    background-color: rgb(243, 243, 240);
+}
+div#im_pricing {
+    font-family: Raleway;
+    margin-top: 26px;
+}
+
+.im_register_form .g-recaptcha-div {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    border: none;
+    margin-right: 2px;
+}
+.im_register_form .g-recaptcha-div .g-recaptcha{
+    margin-left: 0;
+}
+
+.im_register_form .g-recaptcha-div .g-recaptcha div,.im_register_form .g-recaptcha-div .g-recaptcha div iframe{
+    width: 100% !important;
+}
